@@ -72,8 +72,8 @@ window.onload = function () {
      */
     function randomTime(min, max) {
         // TODO: 写生成随机数的逻辑，
-        var num = parseInt(Math.random() * (max - min + 1) + min)
-        return num;
+        const time = parseInt(Math.random() * (max - min + 1) + min)
+        return time;
     }
 
     /**
@@ -84,7 +84,7 @@ window.onload = function () {
      */
     function randomHole(holes) {
         // TODO: 写地鼠随机选择钻出地洞的逻辑，如果与上一个是相同地洞，则重新选择一个地洞.
-        return null;
+        
     }
 
     /**
