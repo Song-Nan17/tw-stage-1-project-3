@@ -39,6 +39,7 @@ window.onload = function () {
             startBtn.style.display = '';
             startBtn.innerHTML = "Replay!";
             scoreBoard.innerHTML = score;
+            timeUp = true;
         }, gameTime)
     }
 
@@ -67,7 +68,8 @@ window.onload = function () {
      */
     function randomTime(min, max) {
         // TODO: 写生成随机数的逻辑，
-        return 0;
+        var num = parseInt(Math.random() * (max - min + 1) + min)
+        return num;
     }
 
     /**
