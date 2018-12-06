@@ -84,7 +84,12 @@ window.onload = function () {
      */
     function randomHole(holes) {
         // TODO: 写地鼠随机选择钻出地洞的逻辑，如果与上一个是相同地洞，则重新选择一个地洞.
-        
+        let holeIndex;
+        do {
+            holeIndex = Math.floor(Math.random() * 6);
+        } while (holeIndex == lastHole);
+        lastHole = holeIndex;
+        return holes[holeIndex];
     }
 
     /**
