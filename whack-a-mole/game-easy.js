@@ -48,6 +48,10 @@ window.onload = function () {
      */
     function resetScoreAndTime() {
         // TODO: 写游戏的初始化设置
+        timeUp = false;
+        score = 0;
+        titleH1.innerHTML = "WHACK-A-MOLE!";
+        startBtn.innerHTML = "Start!";
     }
 
     /**
