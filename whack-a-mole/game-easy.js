@@ -35,6 +35,10 @@ window.onload = function () {
 
         setTimeout(() => {
             // TODO: 写当游戏时间结束后要发生的事
+            titleH1.innerHTML = "TIME UP!";
+            startBtn.style.display = '';
+            startBtn.innerHTML = "Replay!";
+            scoreBoard.innerHTML = score;
         }, gameTime)
     }
 
