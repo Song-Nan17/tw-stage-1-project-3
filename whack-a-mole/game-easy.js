@@ -7,7 +7,7 @@ window.onload = function () {
     let titleH1 = document.getElementById('title');
 
     let lastHole;
-    var timeUp = false;
+    let timeUp = false;
     let score = 0;
     let gameTime = 10000;
 
@@ -71,7 +71,7 @@ window.onload = function () {
      */
     function randomTime(min, max) {
         // TODO: 写生成随机数的逻辑，
-        const time = parseInt(Math.random() * (max - min + 1) + min)
+        const time = Math.random() * (max - min + 1) + min;
         return time;
     }
 
