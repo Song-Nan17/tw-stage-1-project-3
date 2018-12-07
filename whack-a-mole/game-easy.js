@@ -7,7 +7,7 @@ window.onload = function () {
     let titleH1 = document.getElementById('title');
 
     let lastHole;
-    let timeUp = false;
+    var timeUp = false;
     let score = 0;
     let gameTime = 10000;
 
@@ -42,7 +42,6 @@ window.onload = function () {
             timeUp = true;
         }, gameTime)
     }
-
     /**
      * 初始化设置.
      */
@@ -101,16 +100,14 @@ window.onload = function () {
     function comeOutAndStop(hole, time) {
         // TODO: 写地鼠出洞并停留相应时间，如果游戏时间未结束(timeUp)，继续出洞(peep).
 
-        event.preventDefault();
         hole.classList.add('up');
         setTimeout(() => {
             hole.classList.remove('up');
+            if (!timeUp) {
+                peep();
+            }
         }, time);
-        // if (!timeUp) {
-        //     peep();
-        // };
     }
-
 
     /**
      * 打地鼠。为每个moles添加点击事件，点击后分数显示+1，地鼠入洞。
