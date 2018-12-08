@@ -1,0 +1,8 @@
+{
+   "appDesc": {
+      "message": "Password Manager 的資料庫可儲存您的加密資料，例如使用者名稱、密碼和其他個人資訊。當您存取網站或應用程式時，Password Manager 會自動輸入您的登入資訊，將登入程序自動化。"
+   },
+   "appName": {
+      "message": "Lenovo Password Manager"
+   }
+}

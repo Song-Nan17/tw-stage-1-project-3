@@ -1,0 +1,8 @@
+{
+   "appDesc": {
+      "message": "Password Manager에는 사용자 이름, 암호, 기타 개인 정보 등의 암호화된 데이터를 저장하는 데이터베이스가 있습니다. 웹 사이트 또는 응용프로그램에 액세스할 때 Password Manager는 로그온 정보를 자동으로 입력하여 로그온 프로세스를 자동화해 줍니다."
+   },
+   "appName": {
+      "message": "Lenovo Password Manager"
+   }
+}

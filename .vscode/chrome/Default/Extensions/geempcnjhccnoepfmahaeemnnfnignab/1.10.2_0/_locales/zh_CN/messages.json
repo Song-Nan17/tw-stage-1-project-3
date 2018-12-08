@@ -1,0 +1,8 @@
+{
+   "appDesc": {
+      "message": "Password Manager 有一个数据库，其中存储您的加密数据，如用户名、密码和其他个人信息。访问 Web 站点或应用程序时，Password Manager 自动执行登录过程，即自动输入您的登录信息。"
+   },
+   "appName": {
+      "message": "Lenovo Password Manager"
+   }
+}

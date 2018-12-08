@@ -12,6 +12,7 @@ window.onload = function () {
     let gameTime = 10000;
 
 
+
     startBtn.addEventListener('click', function () {
         showBtnAnimation();
         startGame();
@@ -49,6 +50,7 @@ window.onload = function () {
         // TODO: 写游戏的初始化设置
         timeUp = false;
         score = 0;
+        scoreBoard.innerHTML = score;
         titleH1.innerHTML = "WHACK-A-MOLE!";
         startBtn.innerHTML = "Start!";
     }
@@ -114,6 +116,12 @@ window.onload = function () {
      */
     moles.forEach(mole => mole.addEventListener('click', function (e) {
         // TODO: 在这里写用户点击地鼠发生的事.
-    }));
+        if (mole.parentNode.classList.contains('up')) {
+            score += 1;
+            scoreBoard.innerHTML = score;
+            mole.parentNode.classList.remove('up');
+        }
+    }
+    ));
 
-};
+}
