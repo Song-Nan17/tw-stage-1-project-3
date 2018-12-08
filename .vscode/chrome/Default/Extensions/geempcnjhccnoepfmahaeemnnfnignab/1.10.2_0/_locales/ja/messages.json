@@ -1,8 +1,0 @@
-{
-   "appDesc": {
-      "message": "Password Manager には、ユーザー名、パスワード、その他の個人情報などの暗号化されたデータを保存するデータベースがあります。Web サイトやアプリケーションにアクセスすると、Password Manager によって自動的にログオン情報が入力され、ログオン・プロセスが自動化されます。"
-   },
-   "appName": {
-      "message": "Lenovo Password Manager"
-   }
-}

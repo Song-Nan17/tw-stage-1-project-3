@@ -1,8 +1,0 @@
-{
-   "appDesc": {
-      "message": "Password Manager cuenta con una base de datos que almacena los datos cifrados, como nombres de usuario, contraseñas y otra información personal. Cuando accede a un sitio web o aplicación, Password Manager automatiza el proceso de inicio de sesión mediante el ingreso automático de la información respectiva."
-   },
-   "appName": {
-      "message": "Lenovo Password Manager"
-   }
-}

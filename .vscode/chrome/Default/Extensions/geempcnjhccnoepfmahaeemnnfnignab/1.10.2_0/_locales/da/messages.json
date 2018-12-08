@@ -1,8 +1,0 @@
-{
-   "appDesc": {
-      "message": "Password Manager har en database, der gemme dine krypterede data, f.eks. brugernavn, adgangskoder og andre personlige oplysninger. Når du åbner et websted eller et program, automatiserer Password Manager logonprocessen ved automatisk at angive dine logonoplysninger."
-   },
-   "appName": {
-      "message": "Lenovo Password Manager"
-   }
-}

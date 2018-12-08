@@ -1,8 +1,0 @@
-{
-   "appDesc": {
-      "message": "Password Manager -ohjelmassa on tietokanta, joka tallentaa salatut tiedot, kuten käyttäjänimet, salasanat ja muut henkilökohtaiset tiedot. Kun avaat Web-sivuston tai sovelluksen, Password Manager automatisoi kirjautumisprosessin kirjoittamalla kirjautumistiedot automaattisesti."
-   },
-   "appName": {
-      "message": "Lenovo Password Manager"
-   }
-}
